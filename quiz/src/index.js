@@ -76,12 +76,11 @@ class Quiz extends React.Component {
     });
   }
   next() {
-    alert("hoge");
     this.setState({
       quiz_list: this.props.data,
       number: this.state.number + 1,
-      is_answer: true,
-      is_correct: choice_index === quiz.correct
+      is_answer: false,
+      is_correct: false
     });
   }
 }
