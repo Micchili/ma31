@@ -15,7 +15,7 @@ type CorrectProps = {
 };
 
 type QuizProps = {
-  data: any; //JSONの型闇では？？
+  data: {}
 };
 
 const Answer: React.FC<AnswerProps> = props => {
